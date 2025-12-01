@@ -1,0 +1,33 @@
+/* 1. Global Reset (Standard practice) */
+* {
+  box-sizing: border-box; /* Makes math easier */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px; /* Space around the whole page */
+  background-color: #f4f4f4;
+}
+
+/* 2. Visualising the Semantic Boxes */
+header {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid blue; /* Visual guide */
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 15px;
+  border: 2px solid green; /* Visual guide */
+  margin-bottom: 15px; /* Push the next section down */
+}
+
+article {
+  border: 1px dashed red; /* Visual guide */
+  padding: 10px;
+  margin-bottom: 10px;
+}
